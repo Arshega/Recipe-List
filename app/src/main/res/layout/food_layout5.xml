@@ -28,6 +28,8 @@
             android:id="@+id/textIngredients"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
             android:text="@string/Chixs"
             tools:layout_editor_absoluteX="175dp"
             tools:layout_editor_absoluteY="290dp" />
@@ -36,6 +38,8 @@
             android:id="@+id/textInstructions"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
             android:text="@string/Chixs1"
             tools:layout_editor_absoluteX="175dp"
             tools:layout_editor_absoluteY="290dp" />
