@@ -16,7 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Main2Activity"></activity>
+        <activity android:name=".Food1" />
+        <activity android:name=".Food2" />
+        <activity android:name=".Food3" />
+        <activity android:name=".food4" />
+        <activity android:name=".food5" />
+        <activity android:name=".food6" />
+        <activity android:name=".food7" />
+        <activity android:name=".food8"></activity>
     </application>
 
 </manifest>

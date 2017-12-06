@@ -20,18 +20,17 @@ class MainActivity : AppCompatActivity() {
 
         val users = ArrayList<User>()
 
-        users.add(User("Roast Pork and Pickled Cucumber Sandwich", "Make quick pickles by combining cucumber, vinegar, oil, brown sugar, salt, and pepper; they give the sandwich an extra zing."))
-        users.add(User("Smoked Salmon Salad Sandwich", "Mix freshly roasted salmon with smoked salmon for a delicious filling that’s not overpowering. Bonus: The salmon mixture can be made up to 3 days in advance."))
-        users.add(User("Beets, Spinach, and Goat Cheese Sandwich", "Mild, creamy goat cheese pairs well with the sweet roasted beets and raisins."))
-        users.add(User("Tomato, Bacon, and Garlic Mayo Sandwich", "Upgrade a standard BLT with a garlicky yogurt sauce and sliced avocado."))
-        users.add(User("Chicken, Sprouts, and Provolone Sandwich", "Warm chicken, melted cheese, and crisp sprouts in a toasted bagel makes a satisfying snack or meal."))
-        users.add(User("French Ham and Cheese Sandwich", "A mixture of chopped cornichons, butter, Dijon mustard, and fresh tarragon gives this ham and cheese sandwich a French twist."))
-        users.add(User("Egg, Frisée, and Caramelized Onion Sandwich", "The slightly runny egg yolk creates a rich, delicious sauce as it mingles with the fig jam."))
-        users.add(User("Eggplant With Peppers and Beans Sandwich", "Mash cannellini beans with garlic, tahini, lemon juice, and olive oil for a delicious Middle Eastern-style sandwich spread. "))
+        users.add(User("Crispy Cheddar Chicken", "Super easy: Just halve some chicken breasts, and dip them in milk, cheddar, and crushed Ritz crackers or breadcrumbs. Then bake"))
+        users.add(User("One Pot Spaghetti with Meat Sauce", "Ground beef can be expensive, so I substitute half the meat for minced mushrooms, and nobody ever notices. Just toss mushrooms in a food processor and pulse. After you brown the beef, add the mushrooms, seasonings, and tomato sauce. This also works with taco meat, chili, and sloppy joes."))
+        users.add(User("Fish in Lemon & Butter Sauce", "So simple, and works with with pretty much any white fish."))
+        users.add(User("Easy Fried Rice", "This takes less than 10 minutes if you use day-old rice and frozen peas and carrots."))
+        users.add(User("Pesto Chicken Bake", "I love the store-brand pesto at Trader Joes and Whole Foods, but it's also pretty cheap and fast to make your own"))
+        users.add(User("Whole Wheat Penne With Sausage & Peppers", "I use any produce that's about to turn, always with lots of garlic and olive oil"))
+        users.add(User("Shakshuka", "The best part is the rich, tomato-y sauce — with eggs baked right in."))
 
 
 
-        val adapter = CustomAdpater(users)
+        val adapter = CustomAdpater(users, applicationContext)
 
         recycleview.adapter = adapter
 

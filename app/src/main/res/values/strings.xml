@@ -1,3 +1,168 @@
 <resources>
     <string name="app_name">Recipe List</string>
+    <string name="prepTime">Prep Time: 15 minutes \nCook Time: 35 minutes\n Total Time: 50 minutes Yield: \n7 servings</string>
+    <string name="Chicken">Ingredients: \n Chicken:4 large chicken breasts \n2 sleeves Ritz crackers \n1/4 t salt \n1/8 t pepper \n1/2 C milk \n3 C cheddar cheese, grated \n1 t dried parsley
+    </string>
+    <string name="Chicken1">Instructions: \n1. Cut each chicken breast into 3 large chunks.\n2. In a small food processor grind up the ritz crackers.\n3. Pour the milk, cheese and cracker crumbs into 3 separate small pans. Toss the 1/4 t salt and 1/8 t pepper into the cracker crumbs and stir the mixture around to combine.\n4. Dip each piece of chicken into the milk then the cheese. Press the cheese into the chicken with your fingers. Some of it will fall off when you add it to the cracker crumbs, don\'t worry about it. Press the cheesy chicken into the cracker crumbs and press it in. By the time you are coating the last piece of chicken, the dish you are using for the crumbs will be full of cheese. Don\'t let it get you down. Once the cheese melts in the oven it will adhere nicely to the crumbs and the crackers.\n5. Spray a 9x13 pan with cooking spray and lay the chicken inside the pan.\n6. Sprinkle the dried parsley over the chicken.\n
+7. Cover the pan with tin foil and bake at 400 degrees for 35 minutes. Remove the tin foil, bake for an additional 10 minutes, or until the edges of the chicken are golden brown and crispy.\n
+8. Into a medium sized sauce pan combine the cream of chicken soup, sour cream and butter with a whisk. Stir it over medium high heat until the sauce is nice and hot. Serve over the chicken.\n
+    </string>
+    <string name="Spag">Ingredients\n
+1 pound ground beef\n
+1 medium onion, chopped finely\n
+2 garlic cloves, minced\n
+14 ounces chicken or vegetable broth\n
+2 cups water\n
+6 ounces tomato paste\n
+1 tsp oregano\n
+1/2 tsp dried basil\n
+1/4 tsp black pepper\n
+12 ounces spaghetti\n
+1/4 cup parmesan cheese\n
+    </string>
+
+    <string name="Spag1">Instructions\n
+1.In a large pot or skillet with tall sides, add onions, garlic, and ground beef; cook for 6-8 minutes, or until beef is cooked through; use a wooden spatula to break apart while cooking. Drain off fat.\n
+2.Add tomato paste, broth, water, oregano, basil, black pepper; whisk well to combine ingredients; bring to a boil.\n
+3.Add spaghetti, lightly pressing down so sauce comes over it. Lightly stir it every few seconds, so that spaghetti combines with sauce/meat. Simmer for 17-20 minutes or until spaghetti is cooked through and sauce has thickened.\n
+4.Serve immediately topped with fresh parmesan cheese.</string>
+
+    <string name="Fish">Ingredients\n
+1 lb Cod\n
+1 tsp Salt\n
+1 tsp Black Pepper\n
+2 Tbsp Unsalted Butter\n
+1 Lemon, thinly sliced\n
+1/4 cup Tartar Sauce\n
+1 tsp Primal Palate Garlic &amp; Herb Seasoning, (sub: 1/2 tsp salt, 1/2 tsp pepper, to taste)\n
+    </string>
+    <string name="Fish1">Process\n
+1.Preheat oven to 425 degrees.\n
+2.Rinse cod under cool water and pat dry with a paper towel.\n
+3.Place cod into an oven safe baking dish.\n
+4.Sprinkle cod with salt and pepper.\n
+5.Lay butter on top of the cod filets, two pieces of butter per four ounces of fish.\n
+6.Lay lemon slices on top of the cod filets, two slices per four ounces of fish.\n
+7.Bake cod, uncovered for 30 minutes.\n
+8.Serve with Tartar Sauce.</string>
+
+    <string name="Rice">Ingredients\n
+        1 cup rice\n
+3 chicken breasts, cooked and shredded (I recommend slow cooker chicken teriyaki)\n
+1 onion, diced\n
+2 cloves garlic, minced\n
+1/2 cup frozen peas\n
+4 carrots, diced\n
+2 eggs\n
+3 tablespoons sesame oil (or you can substitute butter!)\n
+1/4 cup soy sauce\n
+Optional: sesame seeds\n</string>
+
+    <string name="Rice1">INSTRUCTIONS\n
+1.Prepare 1 cup rice with two cups water in a rice cooker or on the stovetop.\n
+2.Meanwhile, heat sesame oil in a large skillet over medium heat. Add onion, garlic, peas, and carrots. Cook for 5-7 minutes.\n
+3.Crack eggs into pan and scramble, mixing with vegetables.\n
+4.Add rice, chicken, and soy sauce to pan. Stir to combine and remove from heat.\n</string>
+
+    <string name="Chixs">Ingredients\n
+3-4 Boneless Skinless Chicken Breasts\n
+4-6 Tablespoons Prepared Pesto\n
+1-2 Roma Tomatoes\n
+1 Cup Mozzarella Cheese, grated\n</string>
+    <string name="Chixs1">Instructions\n
+1.Trim the chicken and lay them in a glass baking dish in a single layer.
+2.Spread 1-2 tablespoons of the pesto on top of each chicken breast.
+3.Cut the roma tomatoes into slices approx 1/2" thick and lay 2 slices on top of each chicken breast.
+4.Sprinkle the cheese over the top of the chicken breasts.
+5.Bake at 400?F for 30-40 minutes or until the chicken is done and the juices run clear.
+6.Serve over a bed of rice or a plate of pasta. Enjoy!
+</string>
+
+    <string name="Sausage">INGREDIENTS:\n
+12 ounces whole-wheat penne pasta\n
+1 pound Italian sausage links (1 package)\n
+1 small green pepper, sliced\n
+1 small red pepper, sliced\n
+1 small yellow onion, sliced thin\n
+½ cup red wine (merlot or pinot noir)\n
+6 ounces tomato paste\n
+8 ounces tomato sauce\n
+12 ounces water\n
+½ teaspoon Italian seasoning\n
+1 teaspoon sugar\n
+½ teaspoon salt\n
+Parmesan Cheese for finishing\n</string>
+    <string name="Sausage1">DIRECTIONS:
+In a large pot of salted water, cook pasta until al dente. Reserve starchy cooking water.\n
+Heat a tablespoon of olive oil in a large skillet over a medium-high heat. Brown sausages on all sides, until almost cooked through, remove and cut into ¼ inch slices. You don’t have to worry about cooking them all the way through, they will finish cooking while the sauce simmers.\n
+In the same pan drizzle another teaspoon or so of olive oil and sauté the peppers and onions until slightly softened, about five minutes.\n
+Return sausage back to the pan and deglaze with red wine.\n
+Add tomato paste, tomato sauce, water, Italian seasoning, sugar and salt. Stir to combine.\n
+Bring to a boil and then reduce to a simmer. Simmer for ten minutes.\n
+Add penne to the skillet, toss with sauce. If needed add starchy pasta water to loosen the sauce up.\n
+Season with salt and pepper and garnish with grated parmesan cheese.\n</string>
+
+    <string name="Shakshuka">INGREDIENTS:\n
+In the pan\n
+olive oil or coconut oil\n
+1-2 red or yellow onion, or a couple of shallots, or why not mix them all.\n
+2 garlic cloves, crushed and mixed with a teaspoon salt\n
+1 red bell pepper, cut in strips\n
+a handful of cherry tomatoes, halved (optional)\n
+1 tsp paprika powder\n
+1 tsp ground coriander\n
+1 tsp ground cumin\n
+1 handful of fresh herbs like coriander, mint, parsley and basil, chopped\n
+400 g (a regular tin) plum tomatoes\n
+1 tbsp runny Honey\n
+water\n
+4 free range eggs\n
+
+optional in the pan:\n
+1 tbsp Harissa or 1 tsp chili paste\n
+
+to serve:\n
+bread\n
+1 handful fresh herbs, chopped\n
+garlic yogurt sauce\n
+one small handful of fresh herbs, preferably coriander and mint\n
+one handful of feta or goat cheese crumble (optional)\n
+a sprinkle zaatar spice mix (optional)\n
+
+garlic youghurt sauce\n
+2 dl yogurt\n
+1 tbsp runny honey\n
+I clove garlic, crushed in a little bit of salt\n
+1 tsp extra virgin olive oil\n</string>
+    <string name="Shakshuka2">INSTRUCTIONS:\n
+1. Chop the onion in small even pieces. Oil your pan. Fry the onion on medium heat for 5 minutes while stirring.\n
+
+2. Add the bell pepper strips, ground cumin, ground coriander and the halved cherry tomatoes (if opted for that). for another 10 minutes, on low heat, keep stirring.\n
+
+3. Add plum tomatoes, garlic salt, honey, coriander, paprika powder, fresh herbs, and harissa if you opted for that, let it all simmer for 10 minutes on low heat.\n
+
+4. Stir occasionally and add a little water if it starts to burn and dry out.\n
+
+5. Prepare the yogurt sauce by mixing the ingredients in a bowl and set aside.\n
+
+6. Return to the Shakshuka - add a 1-2 tbsp water or more if needed.\n
+
+7. With a spoon, make four little shallow deepenings in the surface, and crack an egg in each. Leave the whole loveliness for 10 minutes on low heat. The result should be a dried out sauce with eggs done. Remove from heat.\n
+
+8. Serve with sprinkled fresh herbs, zaatar (if you opt for that) and drizzled garlic sauce.  Scoop up the shakshuka with bread. Enjoy!\n</string>
+
+    <!--<string name="Rice1"></string>-->
+    <!--<string name="Rice1"></string>-->
+
+
+
+
+
+
+
+
+
+
+
 </resources>
+

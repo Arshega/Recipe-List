@@ -2,32 +2,64 @@ package com.example.pc.recipelist
 
 import android.content.Context
 import android.content.Intent
-import android.support.v4.content.ContextCompat.startActivity
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.LinearLayout
 import android.widget.TextView
-import android.widget.Toast
-import com.example.pc.recipelist.R.id.parent
 
 /**
  * Created by PC on 12/5/2017.
  */
-private val context: Context? = null
-class CustomAdpater(val userList: ArrayList<User>) : RecyclerView.Adapter<CustomAdpater.ViewHolder>() {
+
+class CustomAdpater(val userList: ArrayList<User>, context: Context) : RecyclerView.Adapter<CustomAdpater.ViewHolder>() {
+
+    var mcontext = context
     override fun onBindViewHolder(holder: ViewHolder?, position: Int) {
         val user : User = userList[position]
         holder?.textViewName?.text = user.name
-        holder?.textViewName2?.text = user.address
+        holder?.textViewName2?.text = user.description
+        holder!!.textViewName.text = "Name: "+ user.name
+        holder.textViewName2.text = "Description: "+user.description
 
-
-        holder?.linearLayout?.setOnClickListener(View.OnClickListener {
-            val intent = Intent(context, Main2Activity::class.java)
-            
+        holder.onCustomItemClick(object :CustomItemClick{
+            override fun onCustomItemClick(view: View, pos: Int) {
+                if (pos == 0 ) {
+                    val intent = Intent(mcontext, Food1::class.java)
+                    mcontext.startActivity(intent);
+                }
+                if (pos == 1 ) {
+                    val intent = Intent(mcontext, Food2::class.java)
+                    mcontext.startActivity(intent);
+                }
+                if (pos == 2 ) {
+                    val intent = Intent(mcontext, Food3::class.java)
+                    mcontext.startActivity(intent);
+                }
+                if (pos == 3 ) {
+                    val intent = Intent(mcontext, food4::class.java)
+                    mcontext.startActivity(intent);
+                }
+                if (pos == 4 ) {
+                    val intent = Intent(mcontext, food5::class.java)
+                    mcontext.startActivity(intent);
+                }
+                if (pos == 5 ) {
+                    val intent = Intent(mcontext, food6::class.java)
+                    mcontext.startActivity(intent);
+                }
+                if (pos == 6 ) {
+                    val intent = Intent(mcontext, food7::class.java)
+                    mcontext.startActivity(intent);
+                }
+            }
         })
+
+
     }
+
+
 
 
 
@@ -42,10 +74,26 @@ class CustomAdpater(val userList: ArrayList<User>) : RecyclerView.Adapter<Custom
 
 
 
-    class ViewHolder(itemView: View): RecyclerView.ViewHolder(itemView){
-        val textViewName = itemView.findViewById<TextView>(R.id.textViewUsername)
-        val textViewName2 = itemView.findViewById<TextView>(R.id.textViewAddress)
-        val linearLayout = itemView.findViewById<LinearLayout>(R.id.LinearLayout)
+    class ViewHolder(itemView: View): RecyclerView.ViewHolder(itemView), View.OnClickListener {
+        override fun onClick(v: View?) {
+            this.customItemClick!!.onCustomItemClick(v!!, adapterPosition)
+        }
+
+        val textViewName: TextView
+        val textViewName2: TextView
+        val linearLayout: LinearLayout
+        var customItemClick: CustomItemClick?=null
+
+        init {
+            textViewName = itemView.findViewById<TextView>(R.id.textViewUsername)
+            textViewName2 = itemView.findViewById<TextView>(R.id.textViewAddress)
+            linearLayout = itemView.findViewById<LinearLayout>(R.id.LinearLayout)
+            itemView.setOnClickListener(this)
+        }
+
+        fun onCustomItemClick(itemClickListener: CustomItemClick){
+            this.customItemClick = itemClickListener
+        }
     }
 
 
